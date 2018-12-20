@@ -119,6 +119,8 @@ public class SettingsActivity extends Activity
         } else  if (Utilities.KEY_NOTIFICATION_GESTURE.equals(key)) {
         } else  if (Utilities.ICON_SIZE.equals(key)) {
                 LauncherAppState.getInstanceNoCreate().setNeedsRestart();
+        } else if (Utilities.SHOW_WORKSPACE_GRADIENT.equals(key) || Utilities.SHOW_HOTSEAT_GRADIENT.equals(key)) {
+            LauncherAppState.getInstanceNoCreate().setNeedsRestart();
         }
     }
 
