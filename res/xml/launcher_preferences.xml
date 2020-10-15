@@ -134,12 +134,6 @@
 
 </PreferenceCategory>
 
-    <SwitchPreference
-        android:key="pref_grid_options"
-        android:title="@string/pref_grid_options_title"
-        android:defaultValue="false"
-        android:persistent="true" />
-
     <androidx.preference.PreferenceScreen
         android:key="pref_developer_options"
         android:persistent="false"
